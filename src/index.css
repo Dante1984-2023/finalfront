@@ -1,0 +1,305 @@
+   :root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+main {
+  width: 100%;
+
+}
+
+body {
+	margin: 0 auto;
+	max-width: 1500px;
+	font-family: 'Lato';
+	color: #333;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+[type="password"] {
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 10px 0;
+}
+
+input[type="button"],
+.button {
+  background-color: rgb(16, 95, 163);
+  padding: 10px;
+  border: 0;
+  min-width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+
+nav {
+  background-color: #eee;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: rgb(97, 28, 161);
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 500px;
+  margin: auto;
+}
+
+.errorMessage {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+}
+
+
+.botonLogin{
+  background-color: rgb(26, 61, 158);
+  color: #eee;
+  padding: 10px 40px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+/* contenedor 1 */
+
+.d-block {
+ 
+  
+  height: 90vh;
+  
+  
+  
+  
+}
+.Titulo{
+  font-size: 48px;
+  color: #f64b3c;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana,;
+}
+
+/*Inicio Seccion 2*/
+.contenedor-2{
+  width: 100%;
+  height: 90vh;
+  background-color: #e4e2cf;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .contenedor-2__text{
+    width: 35%;
+  
+  }
+  .contenedor-2__img{
+  width: 35%;
+  }
+  .contenedor-2__text h2{
+    font-size: 48px;
+    color: #f64b3c;
+  }
+  .contenedor-2__text p{
+    font-size: 20px;
+    margin: 40px 0px;
+    color: #f64b3c;
+  }
+  .contenedor-2__text a{
+    background-color: #f64b3c;
+    width: 50%;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 40px;
+  
+  }
+  
+  .contenedor-2__text a:hover{
+    background-color: #fff;
+    color:#f64b3c;
+  }
+  
+/*Inicio de seccion 4*/
+.contenedor-4{
+  width: 100%;
+  height: 90vh;
+  background-color: #f6eedf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /*centrado horizontalmente*/
+  color: #f64b3c;
+  }
+  .contenedor-4__text{
+  
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .contenedor-4__text h2{
+  font-size: 48px;
+  
+  }
+  .contenedor-4__text p{
+  font-size: 20px;
+    margin: 30px;
+    text-align: center;
+  }
+  .contenedor-4__fotos{
+  width: 70%;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .fotossucursales{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+  }
+  .fotossucursales img{
+  border-radius: 15px;
+  
+  }
+  .fotossucursales h3{
+   font-size: 20px;
+    margin: 10px 0;
+  
+  }
+  .fotossucursales p{
+  font-size: 18;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*Fin de seccion 4*/
+
+/*
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+/*  
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+*/
+
+/*
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.containerFormulario{
+  background: #cac0c0;
+}
+.containerTabla{
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+.TiendaProductos{
+  
+ 
+
+  
+}
+.container-icon{
+
+}
+.container-cart-icon{
+  
+}
+.cabeceraNavegacion{
+  
+  
+  text-align: center;
+  width: 100%;
+}
