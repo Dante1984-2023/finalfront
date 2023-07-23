@@ -29,7 +29,7 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
   }
   return (
     <>
-      <header className="cabeceraNavegacion">
+      <header className="Navegacion1">
         <nav>
           <ul>
             <li>
@@ -60,7 +60,7 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
         </nav>
       </header>
 
-      <main>{children}</main>
+      <main className="main1">{children}</main>
     </>
   );
 }

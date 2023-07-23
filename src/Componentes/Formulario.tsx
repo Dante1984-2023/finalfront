@@ -57,17 +57,19 @@ const Formulario = () =>{
     return (
         
 < PortalLayout>
+<div className='ContenedorFormulario'>
+<img className="fondoformulario" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
          <div className='containerFormulario mt-5'>
             
-            <div className='text-center m-5'> 
-            <h1>
+            <div className='tituloformulario text-center m-5'> 
+            <h1 className=' text-center m-5'>
                 Formulario de Carrito
             </h1>             
             </div>              
            
             <Form onSubmit={handleSubmit(onSubmit)}>
                 <Form.Field>
-                    <Label>id:</Label>
+                    {/*  <Label>id:</Label>
                     <input placeholder ='Id'
                     type='Nomber'
                     //name='id'
@@ -78,7 +80,7 @@ const Formulario = () =>{
 
                         })
                     }
-                    />
+                    />*/}
                 </Form.Field>
                 {errors.nombre && <p className='errores'>El Id es obligatorio con un maximo de 50 caracteres</p>}
 
@@ -141,6 +143,7 @@ const Formulario = () =>{
                      
                 </div>
             </Form>
+                </div>
                 </div>
         </PortalLayout>
     )

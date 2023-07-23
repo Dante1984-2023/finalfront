@@ -53,10 +53,11 @@ const Update = () =>{
 
     return (
         < PortalLayout>
-
-         <div className='container mt-5'>
+          <div className="ContenedorTabladeproductos">
+<img className="fondoformulario" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
+         <div className='containerupdate mt-5' >
             
-            <div className='text-center m-5'> 
+         <div className='tituloformulario text-center m-5'> 
             <h1>
                 Formulario de Update
             </h1>             
@@ -99,12 +100,13 @@ const Update = () =>{
                 
                 
 
-                <div className='centrar'>
-                    
-                        <Button type='submit' onClick={updateApiData}>Actualizar Datos</Button>
+                <div className='botonActualizar'>
+                
+                        <Button  type='submit'  onClick={updateApiData} color='orange'>Actualizar Datos</Button>
                 
                 </div>
             </Form>
+                </div>
                 </div>
                 </ PortalLayout>
     )

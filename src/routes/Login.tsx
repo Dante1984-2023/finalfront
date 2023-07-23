@@ -26,7 +26,7 @@ export default function Login() {
     e.preventDefault();
     // auth.setIsAuthenticated(true);
     try {
-      const response = await fetch("http://localhost:4200/api/login", {
+      const response = await fetch("https://back13-mq8v.onrender.com/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -53,10 +53,11 @@ export default function Login() {
   
   return (
     <DefaultLayout>
+      <img className="fondoRegistrarse" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
       <form onSubmit={handleSubmit} className="form">
-        <h1>Login</h1>
+        <h1>Iniciar Sesión</h1>
         {!!errorResponse && <div className="errorMessage">{errorResponse}</div>}
-        <label>Username</label>
+        <label>Nombre de Usuario</label>
         <input
           name="username"
           type="text"
@@ -71,7 +72,7 @@ export default function Login() {
           value={password}
         />
 
-        <button className="botonLogin">Login</button>
+        <button className="botonLogin">Iniciar</button>
       </form>
     </DefaultLayout>
   );

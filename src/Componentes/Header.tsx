@@ -30,7 +30,7 @@ export const Header = ({
 
 	return (
 		<PortalLayout>
-				<h1>Tienda</h1>
+				<h1 className="tiendah1">TIENDA</h1>
 
 			<div className='container-icon'>
 				<div

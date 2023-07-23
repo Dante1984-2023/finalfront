@@ -1,13 +1,38 @@
+*::after,
+*::before,
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   
+   
+   
+     
    :root {
+  
+    
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  
+ 
+ 
 }
+
 
 main {
+  
   width: 100%;
+  margin: 0%;
+ 
+ 
+ 
 
 }
+
 
 body {
 	margin: 0 auto;
@@ -15,7 +40,7 @@ body {
 	font-family: 'Lato';
 	color: #333;
 }
-
+ 
 label {
   display: block;
 }
@@ -46,7 +71,13 @@ input[type="button"],
 
 nav {
   background-color: #eee;
+  padding:  10px;
+  margin: 0px;
+  width: 100%;
+  
+  
 }
+
 
 nav ul {
   margin: 0;
@@ -55,6 +86,8 @@ nav ul {
 nav ul li {
   display: inline-block;
   padding: 10px;
+  margin: 0%;
+
 }
 
 a {
@@ -211,95 +244,72 @@ a {
   }
   
   
-  
-  
-  
-  
-  
-  /*Fin de seccion 4*/
-
-/*
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+ .fondoRegistrarse{
+ 
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  padding-top: 0px ;
+  color: #5a54af;
+ 
+  align-items: center;
+ 
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+.ContenedorFormulario{
+  position: absolute;
+  width: 100%;
 }
-a:hover {
-  color: #535bf2;
-}
-/*  
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-*/
-
-/*
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.fondoformulario{
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  padding-top: 0px ;
 }
 .containerFormulario{
-  background: #cac0c0;
+  position: relative;
+ padding-top: 0px;
+ color: #eee;
+ width: 100%;
 }
-.containerTabla{
+ .form{
+  
+  padding-top: 10px;
+  position:relative;
+  color: #fff;
+ }
+ .ContenedorTabladeproductos{
+  position: absolute;
   width: 100%;
-  display: flex;
-  align-content: center;
+ }
+ .containerTabla{
+position: relative;
+  margin-top: 50px;
 }
-.TiendaProductos{
+  .Navegacion1{
+    
+    margin: 0%;
+    width: 100%;
+    
+    
+  }
   
- 
+  .tiendah1{
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+ .tituloformulario{
+  color: #fff;
+  position: relative;
+  padding-top: 2px ;
+ }
+ .containerupdate{
+  padding: 0px;
+ }
 
-  
-}
-.container-icon{
 
-}
-.container-cart-icon{
+ .botonActualizar{
+  color: #af547e;
   
-}
-.cabeceraNavegacion{
-  
-  
-  text-align: center;
-  width: 100%;
-}
+ }
+

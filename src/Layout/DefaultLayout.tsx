@@ -10,20 +10,21 @@ interface DefaultLayoutProps {
 export default function DefaultLayout({children}:DefaultLayoutProps){
      return(
       <>
-      <header>
+      
+      <header className="Navegacion1">
         <nav>
             <ul>
                 <li>
                     <Link to = "/">Home</Link>
                 </li>
                 <li>
-                    <Link to = "/signup">Signup</Link>
+                    <Link to = "/signup">Registrarse</Link>
                 </li>
             </ul>
         </nav>
       </header>
 
-<main>{children}</main>
+<main className="main">{children}</main>
 
       </>
 

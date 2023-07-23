@@ -43,22 +43,24 @@ export default function Signup() {
 
 
   if (auth.isAuthenticated) {
-    return <Navigate to="/dashboard" />;
+    return <Navigate to="/home" />;
   }
 
   return (
     <DefaultLayout>
+      <img className="fondoRegistrarse" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
+      
       <form onSubmit={handleSubmit} className="form">
-        <h1>Signup</h1>
+        <h1>Registrarse</h1>
         {!!errorResponse && <div className="errorMessage">{errorResponse}</div>}
-        <label>Name</label>
+        <label>Nombre</label>
         <input
           type="text"
           name="name"
           onChange={(e) => setName(e.target.value)}
           value={name}
         />
-        <label>Username</label>
+        <label>Nombre de Usuario</label>
         <input
           type="text"
           name="username"
@@ -73,8 +75,10 @@ export default function Signup() {
           value={password}
         />
 
-        <button className="botonLogin">Create account</button>
+        <button className="botonLogin">Crear Usuario</button>
       </form>
+      
+      
     </DefaultLayout>
   );
 }

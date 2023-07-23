@@ -60,6 +60,8 @@ const TabladeProductos = () =>{
     console.log(apiData);
     return(
                 <PortalLayout>
+                    <div className="ContenedorTabladeproductos">
+<img className="fondoformulario" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
         <div className="containerTabla m-5">
             <div className="text-center m-5">
             <h1>
@@ -79,7 +81,7 @@ const TabladeProductos = () =>{
             <Table.Body>
                 {apiData.map((data)=>{
                     return(
-
+                        
                         <Table.Row key={data._id}>
                             
                         <Table.Cell>{data.nombre}</Table.Cell>
@@ -97,10 +99,12 @@ const TabladeProductos = () =>{
                             console.log('dato eliminado')}}>Delete</Button>
                         </Table.Cell>
                         </Table.Row>
+                        
                     )
                 })}
             </Table.Body>
         </Table>
+        </div>
         </div>
         </div>
                 </PortalLayout>
