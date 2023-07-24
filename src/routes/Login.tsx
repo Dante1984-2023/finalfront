@@ -26,7 +26,7 @@ export default function Login() {
     e.preventDefault();
     // auth.setIsAuthenticated(true);
     try {
-      const response = await fetch("https://back13-mq8v.onrender.com/api/login", {
+      const response = await fetch( "http://localhost:4200/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -48,7 +48,7 @@ export default function Login() {
     }
   }
   if (auth.isAuthenticated) {
-    return < Navigate to="/Home" />;
+    return < Navigate to="/home" />;
   }
   
   return  (
