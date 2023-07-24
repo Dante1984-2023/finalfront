@@ -48,7 +48,7 @@ export default function Login() {
     }
   }
   if (auth.isAuthenticated) {
-    return <Navigate to="/Home" />;
+    return < Navigate to="/Home" />;
   }
   
   return  (
