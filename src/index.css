@@ -36,7 +36,7 @@ main {
 
 body {
 	margin: 0 auto;
-	max-width: 1500px;
+	max-width: 1600px;
 	font-family: 'Lato';
 	color: #333;
 }
@@ -284,6 +284,7 @@ a {
  .containerTabla{
 position: relative;
   margin-top: 50px;
+  color: #eee;
 }
   .Navegacion1{
     
