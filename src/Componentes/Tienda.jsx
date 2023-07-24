@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import {  Header } from './Header.tsx'
-import { ProductList } from './ProductList.tsx';
+import {  Header } from './Header.jsx'
+import { ProductList } from './ProductList.jsx';
 
 function Tienda() {
 	const [allProducts, setAllProducts] = useState([]);

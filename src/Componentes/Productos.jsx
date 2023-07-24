@@ -1,7 +1,7 @@
 //import PortalLayout from "../Layout/PortalLayout";
 import { useState } from 'react';
-import {  Header } from '../Componentes/Header.tsx'
-import { ProductList } from '../Componentes/ProductList.tsx';
+import  {  Header } from '../Componentes/Header';
+import { ProductList } from './ProductList.jsx';
 //import Navegacion from "../Componentes/Navegacion.tsx";
 
 

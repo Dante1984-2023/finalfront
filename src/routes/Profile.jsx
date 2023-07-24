@@ -10,8 +10,8 @@ import PortalLayout from "../Layout/PortalLayout";
 //import Inicio from '../Componentes/Inicio';
 
   import { useState } from 'react';
-import {  Header } from '../Componentes/Header.tsx'
-import { ProductList } from '../Componentes/ProductList.tsx';
+import {  Header } from '../Componentes/Header.jsx'
+import { ProductList } from '../Componentes/ProductList.jsx';
 
 export default function Profile() {
     const [allProducts, setAllProducts] = useState([]);

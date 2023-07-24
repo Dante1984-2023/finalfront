@@ -22,7 +22,8 @@ const Update = () =>{
     const [urlimagen, setUrlimagen] = useState('');
     const [precio, setPrecio] = useState('');
     
-
+  
+      
 
     useEffect (() => {
       setId(localStorage.getItem('ID'));

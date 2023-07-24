@@ -62,7 +62,7 @@ export const Header = ({
 					}`}
 				>
 					
-					{allProducts.length ? (
+					{allProducts.length ?  (
 						<>
 							<div className='row-product'>
 								{allProducts.map(product => (
@@ -114,3 +114,5 @@ export const Header = ({
 		</ PortalLayout>
 	);
 };
+
+export default Header;
