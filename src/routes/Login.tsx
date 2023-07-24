@@ -51,7 +51,7 @@ export default function Login() {
     return <Navigate to="/Home" />;
   }
   
-  return (
+  return  (
     <DefaultLayout>
       <img className="fondoRegistrarse" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
       <form onSubmit={handleSubmit} className="form">
