@@ -7,7 +7,7 @@ import Signup from "./routes/Signup";
 import { AuthProvider } from "./auth/AuthProvider";
 import Dashboard from "./routes/Dashboard";
 import ProtectedRoute from "./routes/ProtectedRoute";
-import Profile from "./routes/Profile.jsx";
+//import Profile from "./routes/Profile.jsx";
 import "./carrito.css";
 import "./index.css";
 //import Productos from "./routes/Pruductos.tsx";
@@ -21,6 +21,7 @@ import Home from './Componentes/Home';
 //import Inicio from "./Componentes/Inicio.tsx";
 import Productos from "./Componentes/Productos.jsx";
 import Update from "./Componentes/Update.jsx"
+
 
 
 
@@ -45,7 +46,7 @@ const router  = createBrowserRouter([
       },
       {
         path: "/me",
-        element: <Profile />,
+        element: <Home />,
       },
       {
         path: "/home",
