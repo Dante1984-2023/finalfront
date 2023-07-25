@@ -3,7 +3,7 @@ import DefaultLayout from "../Layout/DefaultLayout";
 import { useAuth } from "../auth/AuthProvider";
 import { Navigate } from "react-router-dom";
 import { AuthResponse, AuthResponseError } from "../types/types";
-
+import { API_URL} from "../auth/AuthConstants";
 export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -26,7 +26,7 @@ export default function Login() {
     e.preventDefault();
     // auth.setIsAuthenticated(true);
     try {
-      const response = await fetch( " http://localhost:4200/api/login", {
+      const response = await fetch( `${API_URL}/api/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
