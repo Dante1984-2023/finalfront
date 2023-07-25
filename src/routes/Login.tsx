@@ -3,8 +3,9 @@ import DefaultLayout from "../Layout/DefaultLayout";
 import { useAuth } from "../auth/AuthProvider";
 import { Navigate } from "react-router-dom";
 import { AuthResponse, AuthResponseError } from "../types/types";
-import { API_URL} from "../auth/AuthConstants";
+
 export default function Login() {
+  
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [errorResponse, setErrorResponse] = useState("");
@@ -26,7 +27,7 @@ export default function Login() {
     e.preventDefault();
     // auth.setIsAuthenticated(true);
     try {
-      const response = await fetch( `${API_URL}/login`, {
+      const response = await fetch("https://back15-z93m.onrender.com/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password }),
@@ -76,4 +77,5 @@ export default function Login() {
       </form>
     </DefaultLayout>
   );
+
 }
