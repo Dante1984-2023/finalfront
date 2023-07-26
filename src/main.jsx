@@ -36,6 +36,8 @@ const router  = createBrowserRouter([
     element: <Signup />,
   },
   
+
+
   {
     path: "/",
     element: <ProtectedRoute />,
@@ -46,17 +48,12 @@ const router  = createBrowserRouter([
       },
       {
         path: "/me",
-        element: <Home />,
+        element: <Productos />,
       },
       {
         path: "/home",
         element: <Home />,
       },
-       {
-        path: "/productos",
-        
-        element: <Productos />,
-      }, 
     
       {
         path: "/formulario",

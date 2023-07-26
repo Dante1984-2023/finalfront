@@ -49,7 +49,7 @@ export default function Login() {
     }
   }
   if (auth.isAuthenticated) {
-    return < Navigate to="/home" />;
+    return < Navigate to="/me" />;
   }
   
   return  (

@@ -54,8 +54,8 @@ const Update = () =>{
 
     return (
         < PortalLayout>
-          <div className="ContenedorTabladeproductos">
-<img className="fondoformulario" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
+          <div className="Contenedorupdate">
+<img className="fondoupdate" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
          <div className='containerupdate mt-5' >
             
          <div className='tituloformulario text-center m-5'> 

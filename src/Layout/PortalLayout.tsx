@@ -38,9 +38,10 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
             <li>
               <NavLink to="/home">Home</NavLink>
             </li>
+            {/* 
             <li>
               <NavLink to="/productos">Productos</NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink to="/formulario">Formulario</NavLink>
             </li>
@@ -48,12 +49,13 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
               <NavLink to="/TabladeProductos">Tabla de Productos</NavLink>
             </li>
           
+
             <li>
               <NavLink to="/me">{auth.getUser()?.username ?? ""}</NavLink>
             </li>
             <li>
               <a href="#" onClick={handleSignOut}>
-                Sign out
+                Cerrar sesion
               </a>
             </li>
           </ul>
@@ -63,5 +65,6 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
       <main className="main1">{children}</main>
     </>
   );
+
 }
 

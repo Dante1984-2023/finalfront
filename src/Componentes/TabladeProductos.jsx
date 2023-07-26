@@ -62,14 +62,14 @@ const TabladeProductos = () =>{
     return(
                 <PortalLayout>
                     <div className="ContenedorTabladeproductos">
-<img className="fondoformulario" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
+<img className="fondoTabladeproductos" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
         <div className="containerTabla m-5">
             <div className="text-center m-5">
             <h1>
                 Tabla de Productos
             </h1>
            
-       
+       <div className="tabladeproductos">
          <Table singleLine>
             <Table.Header>
                 
@@ -79,12 +79,13 @@ const TabladeProductos = () =>{
                 <Table.HeaderCell>Update</Table.HeaderCell>
                 <Table.HeaderCell>Delete</Table.HeaderCell>
             </Table.Header>
+          
             <Table.Body>
+                 
                 {apiData.map((data)=>{
                     return(
                         
                         <Table.Row key={data._id}>
-                            
                         <Table.Cell>{data.nombre}</Table.Cell>
                         <Table.Cell>{data.urlimagen}</Table.Cell>
                         <Table.Cell>{data.precio}</Table.Cell>
@@ -101,10 +102,12 @@ const TabladeProductos = () =>{
                         </Table.Cell>
                         </Table.Row>
                         
-                    )
-                })}
-            </Table.Body>
+                        )
+                    })}
+                    
+            </Table.Body>  
         </Table>
+        </div>
         </div>
         </div>
         </div>

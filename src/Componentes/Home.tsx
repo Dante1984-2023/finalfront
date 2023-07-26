@@ -8,7 +8,7 @@ const Home = () => {
 
     return (
        < PortalLayout>
-<h1 className="Titulo text-center">Productos de la mejor Calidad!</h1>
+<h1 className="Titulo text-center">Bienvenido! Inicia Sesion para ver nuestros Productos</h1>
 <section className="contenedor-1">
     <Carousel fade className="contenedor-1">
       <Carousel.Item>

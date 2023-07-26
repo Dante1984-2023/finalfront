@@ -86,43 +86,4 @@ export default function Dashboard() {
     </PortalLayout>
   );
 }
-/*  
-import  Navegacion  from './Componentes/Navegacion';
-import { Routes, Route } from 'react-router-dom';
-import Formulario from './Componentes/Formulario';
-
-/*  import {TabladeProductos} from "./Componentes/TabladeProductos";*/
-//import Update from './Componentes/Update';
-//import Home from './componentes/Home';
-/*  import PortalLayout from "../Layout/PortalLayout";
-import { Routes, Route } from 'react-router-dom';
-import Formulario from '../Componentes/Formulario';
-import Navegacion from '../Componentes/Navegacion';
-import Tienda from '../Componentes/Tienda'
-//import Inicio from './componentes/Inicio';
-
-
-function App() {
-
-	return (
-<>
-<PortalLayout>
-	<Navegacion /> 
-
-	
-	<Routes>
-	{/*  <Route path="/" element={ <Inicio />} />	*/
-    // <Route path="/tienda" element={ <Tienda />} />	
-	//<Route path="/formulario" element={ <Formulario />} />
-    {/* <Route path="/TabladeProductos" element={ <TabladeProductos />} /> */}
-	{/* <Route path="/update" element={ <Update />} /> */}
-	
-  //</Routes>
-  //</PortalLayout>
-  //</>
-	//)
-
-	
-//}
-
-//export default App;
+   
