@@ -64,11 +64,11 @@ const TabladeProductos = () =>{
                     <div className="ContenedorTabladeproductos">
 <img className="fondoTabladeproductos" src="https://cadena102.com.ar/ochapsoa/2021/09/los-panchos-dobles-choolf-un___qid7xTcxr_1256x620__1.jpg" alt="" />
         <div className="containerTabla m-5">
-            <div className="text-center m-5">
+            <div className="tituloProductos m-5">
             <h1>
                 Tabla de Productos
             </h1>
-           
+           </div>
        <div className="tabladeproductos">
          <Table singleLine>
             <Table.Header>
@@ -79,10 +79,10 @@ const TabladeProductos = () =>{
                 <Table.HeaderCell>Update</Table.HeaderCell>
                 <Table.HeaderCell>Delete</Table.HeaderCell>
             </Table.Header>
-          
+         
             <Table.Body>
                  
-                {apiData.map((data)=>{
+                {apiData.map ((data)=>{
                     return(
                         
                         <Table.Row key={data._id}>
@@ -110,7 +110,8 @@ const TabladeProductos = () =>{
         </div>
         </div>
         </div>
-        </div>
+        
+        
                 </PortalLayout>
     )
 }
@@ -119,18 +120,3 @@ export default TabladeProductos;
 
 
 
-/*  
-const TabladeProductos = () => {
-    return (
-  <PortalLayout>
-
-        <div>
-            <h1>
-               Tablaaaaaaaaaaaaaaaaaaaaaa
-            </h1>
-        </div>
-           </PortalLayout>
-    )
-    export default TabladeProductos;
-}
-*/

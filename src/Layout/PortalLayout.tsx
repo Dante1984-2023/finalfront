@@ -38,16 +38,16 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
             <li>
               <NavLink to="/home">Home</NavLink>
             </li>
-            {/* 
+             
             <li>
               <NavLink to="/productos">Productos</NavLink>
-            </li> */}
+            </li> 
             <li>
               <NavLink to="/formulario">Formulario</NavLink>
             </li>
-            <li>
+            {/*  <li>
               <NavLink to="/TabladeProductos">Tabla de Productos</NavLink>
-            </li>
+            </li>*/}
           
 
             <li>
@@ -55,7 +55,7 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
             </li>
             <li>
               <a href="#" onClick={handleSignOut}>
-                Cerrar sesion
+                Agenda productos con tu usuario  
               </a>
             </li>
           </ul>

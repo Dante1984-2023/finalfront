@@ -45,7 +45,7 @@ const Update = () =>{
             precio,
            
         }).then(()=>{
-           navigate('/TabladeProductos')
+           navigate('/me')
        })
        
    }

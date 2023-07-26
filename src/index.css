@@ -240,7 +240,7 @@ a {
   
   }
   .fotossucursales p{
-  font-size: 18;
+  font-size: 18px;
   }
   
   
@@ -279,9 +279,11 @@ a {
  }
  .ContenedorTabladeproductos{
   display: flex;
+  flex-direction: column;
   align-content: center;
+  margin:auto;
  
-  width: 100%;
+
  }
  .containerTabla{
   
@@ -289,10 +291,19 @@ position: relative;
   margin-top: 50px;
   color: #eee;
   align-content: center;
+  
+ 
 }
 .tabladeproductos{
+  display: flex;
   position: relative;
+ margin: 2%;
 
+ 
+
+}
+.tituloProductos{
+  text-align: center;
 }
 .fondoTabladeproductos{
   position: absolute;
@@ -301,7 +312,8 @@ position: relative;
   padding-top: 0px ;
 }
 .tablanumeros{
-  position: relative;
+  position:relative ;
+  width: 100px;
 }
   .Navegacion1{
     
