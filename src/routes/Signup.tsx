@@ -15,7 +15,7 @@ export default function Signup() {
 
   async function handleSubmit(e: React.ChangeEvent<HTMLFormElement>) {
     e.preventDefault();
-    console.log(username, password, name);
+   // console.log(username, password, name);
 
     try {
       const response = await fetch("https://back15-z93m.onrender.com/api/signup", {
