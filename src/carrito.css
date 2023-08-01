@@ -206,9 +206,9 @@ img {
 	padding: 15px 0;
 	display: block;
 	width: 100%;
-	margin-top: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	margin-top: 5px;
+	border-radius: 30px;
+	
 	font-family: inherit;
 	cursor: pointer;
   font-size: 16px;
@@ -218,7 +218,28 @@ img {
 .btn-clear-all:hover{
   background-color: #333;
   transform: scale(1.03);
-  border-radius: 0;
+  border-radius: 30px;
+}
+.btn-comprar-all {
+	border: none;
+	background-color: #2b23a0;
+	color: #fff;
+	padding: 15px 0;
+	display: block;
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 30px;
+	
+	font-family: inherit;
+	cursor: pointer;
+  font-size: 16px;
+  transition: all .3s ease;
+}
+
+.btn-comprar-all:hover{
+  background-color: #6b6dcc;
+  transform: scale(1.03);
+  border-radius: 30px;
 }
 
 

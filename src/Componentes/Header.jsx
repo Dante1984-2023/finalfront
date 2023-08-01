@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PortalLayout from '../Layout/PortalLayout';
+import Swal from 'sweetalert2';
 
 export const Header = ({
 	allProducts,
@@ -27,6 +28,24 @@ export const Header = ({
 		setTotal(0);
 		setCountProducts(0);
 	};
+	const comprar = () => {
+		Swal.fire({
+           title: 'Confirmar compra',
+           text: '¿Estás seguro de realizar la compra?',
+            icon: 'warning',
+         showCancelButton: true,
+           confirmButtonText: 'Sí, comprar',
+         cancelButtonText: 'Cancelar',
+		}).then((result) => {
+          if (result.isConfirmed) {
+			setAllProducts([]); 
+			Swal.fire('¡Compra realizada con éxito!', '', 'success')
+			.then(onCleanCart)
+ }
+		});
+};
+	
+	
 
 	return (
 		<PortalLayout>
@@ -105,6 +124,7 @@ export const Header = ({
 							<button className='btn-clear-all' onClick={onCleanCart}>
 								Vaciar Carrito
 							</button>
+							<button className='btn-comprar-all' onClick={comprar}>comprar</button>
 						</>
 					) : (
 						<p className='cart-empty'>El carrito está vacío</p>
