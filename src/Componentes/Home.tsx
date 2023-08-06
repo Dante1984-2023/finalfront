@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import PortalLayout from "../Layout/PortalLayout";
 
 import Carousel from 'react-bootstrap/Carousel';
@@ -20,7 +21,8 @@ const Home = () => {
                     <h2>Obtener descuentos hasta 50%</h2>
                     <p>Somos PLATOS RAPIDOS
                     la empresa que se preocupa por tus necesidades alimentarias. Cuidamos tu salud con productos de calidad</p>
-                    <a href="/productos">ORDENA YA</a>
+                    
+                    <NavLink to="/productos">ORDENA YA</NavLink>
                 </div>
             </div>
         </section>
