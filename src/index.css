@@ -319,9 +319,11 @@ position: relative;
     
     margin: 0%;
     width: 100%;
+
     
     
   }
+  
   
   .tiendah1{
     text-align: center;
@@ -356,3 +358,94 @@ position: relative;
   
  }
 
+/*  */
+ .contenedor-0{
+ 
+  height: 100vh;  /* pantalla completa. altura de ventana */
+  /*  background-image: url(../public/img/Meat_products_Tomatoes_Onion_Frikadeller_Bacon_574952_1280x853.jpg) ;*/
+ 
+  flex-direction: column;
+  display: flex;
+
+
+  margin: 0%;
+
+
+
+}
+
+.contenedor-1{
+  width: 100%;
+  height: 100vh;  /* pantalla completa. altura de ventana */
+  /*  background-image: url(../public/img/Meat_products_Tomatoes_Onion_Frikadeller_Bacon_574952_1280x853.jpg) ;*/
+ 
+  position: absolute;
+
+
+  
+
+
+
+ }
+
+
+
+
+
+
+.banner_textos{
+
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ padding-left: 100px;
+ color: #fff;
+ position: relative;
+ 
+}
+.imgfondo1{
+position: absolute;
+width: 100%;
+height: 100vh;
+margin: 0%;
+/* calculo de alto de ventana menos los 100px de la cabecera */
+display: flex;
+/* lo pega a la izquierda. comienzo */
+align-items: center;
+
+
+
+ }
+
+
+ 
+
+ 
+.banner_textos h2{
+  font-size: 78px;
+ 
+}
+.banner_textos p{
+  font-size: 25px;
+  margin: 20px 0 75px 0;
+  
+}
+.banner_textos a{
+  background-color: #f64b3c;
+  width: 50%;
+  padding: 15px 40px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 40px;
+
+
+}
+.banner_textos a:hover{
+  background-color: #fff;
+  color:#f64b3c;
+ 
+
+
+}

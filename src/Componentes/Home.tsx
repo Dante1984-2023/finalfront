@@ -8,7 +8,28 @@ const Home = () => {
 
     return (
        < PortalLayout>
+       {/* 
 <h1 className="Titulo text-center">Bienvenido! Disfruta de nuestros Productos!!</h1>
+ */}
+
+<section className="contenedor-0">
+  
+            <div className="banner">
+                  <img className="imgfondo1" src="/public/img/Meat_products_Tomatoes_Onion_Frikadeller_Bacon_574952_1280x853.jpg" alt="" />
+                <div className="banner_textos">
+                    <h2>Obtener descuentos hasta 50%</h2>
+                    <p>Somos PLATOS RAPIDOS
+                    la empresa que se preocupa por tus necesidades alimentarias. Cuidamos tu salud con productos de calidad</p>
+                    <a href="/productos">ORDENA YA</a>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
 <section className="contenedor-1">
     <Carousel fade className="contenedor-1">
       <Carousel.Item>
@@ -91,7 +112,7 @@ const Home = () => {
         </div>
     </div>
  </section>
-        
+
 
         </PortalLayout>
     )
