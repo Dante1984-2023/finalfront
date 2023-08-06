@@ -15,7 +15,7 @@ const Home = () => {
 <section className="contenedor-0">
   
             <div className="banner">
-                  <img className="imgfondo1" src="/public/img/Meat_products_Tomatoes_Onion_Frikadeller_Bacon_574952_1280x853.jpg" alt="" />
+                  <img className="imgfondo1" src="/img/Meat_products_Tomatoes_Onion_Frikadeller_Bacon_574952_1280x853.jpg" alt="" />
                 <div className="banner_textos">
                     <h2>Obtener descuentos hasta 50%</h2>
                     <p>Somos PLATOS RAPIDOS

@@ -33,7 +33,7 @@ export default function PortalLayout({ children }: PortalLayoutProps) {
         <nav>
           <ul>
             <li>
-            <img src="../public/img/Logo 93x79.png" alt="" />
+            <img src="/img/Logo 93x79.png" alt="" />
             </li>
             <li>
               <NavLink to="/dashboard"></NavLink>
